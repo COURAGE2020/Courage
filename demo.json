@@ -1,0 +1,34 @@
+{
+    "CodePipeline.job": {
+        "id": "7c0ba31c-b9bf-4332-af63-1498522acef6",
+        "accountId": "218063557524",
+        "data": {
+            "actionConfiguration": {
+                "configuration": {
+                    "FunctionName": "test",
+                    "UserParameters": "myconfig"
+                }
+            },
+            "inputArtifacts": [
+                {
+                    "name": "BuildArtifact",
+                    "revision": null,
+                    "location": {
+                        "type": "S3",
+                        "s3Location": {
+                            "bucketName": "test-artifactsbucket-p1t3hn9e6azp",
+                            "objectKey": "test-AppPipeline-1T1/BuildArtif/MYCt6DF"
+                        }
+                    }
+                }
+            ],
+            "outputArtifacts": [],
+            "artifactCredentials": {
+                "accessKeyId": "",
+                "secretAccessKey": "",
+                "sessionToken": null,
+                "expirationTime": 1650389637000
+            }
+        }
+    }
+}
